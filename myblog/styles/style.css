@@ -1,0 +1,168 @@
+body {
+	position: relative;
+	font-family: "Lato","PingFang SC","Microsoft YaHei", sans-serif;
+	font-size: 14px;
+	line-height: 2;
+	color: #555;
+	background-color: #f5f7f9;
+	display: block;
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	position: relative;
+	margin: 0 100px;
+}
+
+#sidebar {
+	position: relative;
+	top: 0;
+	margin-right: 20px;
+	background-color: #FFFFFF;
+	width: 240px;
+}
+
+#sidebar_top {
+	position: relative;
+	padding: 30px 0;
+	margin-bottom: 10px;
+	background-color: #030303;
+}
+
+.site_title {
+	position: relative;
+	color: #FFFFFF;
+}
+
+.brand {
+	position: relative;
+	text-decoration: none;
+	color: #FFFFFF;
+	cursor: auto;
+	padding: 0 100px;
+}
+
+.log_text {
+	position: relative;
+	line-height: 36px;
+	vertical-align: top;
+}
+
+#sidebar_middle {
+	position: relative;
+	text-align: center;
+}
+
+#navi {
+	position: relative;
+	list-style: none;
+}
+
+#navi li {
+	display: inline-block;
+}
+
+#navi li a {
+	text-decoration: none;
+	padding: 0 106px;
+	color: #050505;
+}
+
+#navi li:nth-child(1) a {
+	background-image: url(../images/home.ico);
+	background-repeat: no-repeat;
+	background-position: 88px center;
+}
+
+#navi li:nth-child(2) a {
+	background-image: url(../images/classification.ico);
+	background-repeat: no-repeat;
+	background-position: 88px center;
+}
+
+#navi li:nth-child(3) a {
+	background-image: url(../images/Pen.ico);
+	background-repeat: no-repeat;
+	background-position: 88px center;
+}
+
+#navi li:nth-child(4) a {
+	background-image: url(../images/help.ico);
+	background-repeat: no-repeat;
+	background-position: 88px center;
+}
+
+#navi li:nth-child(5) a {
+	background-image: url(../images/file.ico);
+	background-repeat: no-repeat;
+	background-position: 88px center;
+}
+
+#navi li:nth-child(6) a {
+	background-image: url(../images/LABEL.ico);
+	background-repeat: no-repeat;
+	background-position: 88px center;
+}
+
+#sidebar_bottom {
+	position: relative;
+	display: block;
+	margin-top: 20px;
+}
+
+#sidebar_bottom img {
+	position: relative;
+	display: block;
+	margin: 0 20px;
+	height: 200px;
+	width: 200px;
+}
+
+#under_img {
+	position: relative;
+	margin-top: 20px;
+	height: 40px;
+}
+
+#under_img .fact_lable {
+	position: relative;
+	list-style: none;
+	margin: 0 40px;
+}
+
+#under_img .fact_lable li {
+	float: left;
+	padding: 0 6px;
+	line-height: 20px;
+}
+
+#under_img .fact_lable li:nth-child(1) {
+	border-right: 1px solid #BEBDBD;
+}
+
+#under_img .fact_lable li:nth-child(2) {
+	border-right: 1px solid #BEBDBD;
+}
+
+#under_img .fact_lable li a {
+	text-decoration: none;
+	color: #040404;
+}
+
+#content {
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 900px;
+	height: 100%;
+	top: 0;
+	margin-left: 270px;
+}
+
+a:hover {
+	background-color: #FAF287;
+}
